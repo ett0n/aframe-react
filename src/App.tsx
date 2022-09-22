@@ -2,7 +2,6 @@ import { useState } from "react";
 import "aframe";
 
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <div className="App">
       <a-scene>
