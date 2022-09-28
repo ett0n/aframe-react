@@ -6,7 +6,9 @@ declare global {
       [x: string]: unknown;
     }
     interface IntrinsicElements {
-      "a-asset": aframeElement;
+      animation: aframeElement;
+      "a-asset-item": aframeElement;
+      "a-assets": aframeElement;
       "a-box": aframeElement;
       "a-camera": aframeElement;
       "a-circle": aframeElement;
